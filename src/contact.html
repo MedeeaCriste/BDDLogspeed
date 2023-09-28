@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link href="/dist/output.css" rel="stylesheet">
-
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 </head>
 
 <body>
@@ -81,11 +81,10 @@
         <div>
             <form action="" class="flex flex-col gap-6 ">
                 <input type="text" name="name" required placeholder="Name" class="border-[1px] rounded-sm p-2 w-[100%] md:w-[300px] lg:w-[500px] ">
-                <input type="text" name="phone" required placeholder="Phone*" class="border-[1px] rounded-sm p-2 w-[100%] md:w-[300px] lg:w-[500px]">
+                <input type="tel" pattern="[0-9]{10}" name="phone" required placeholder="Phone*" class="border-[1px] rounded-sm p-2 w-[100%] md:w-[300px] lg:w-[500px]">
                 <input type="email" name="email" required placeholder="Email*" class="border-[1px] rounded-sm p-2 w-[100%] md:w-[300px] lg:w-[500px]">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message*" class="border-[1px] rounded-sm p-2 w-[100%] h-[100px] lg:w-[500px] md:w-[300px]"></textarea>
-                <input type="submit" value="Send message" class="bg-red-700 rounded-sm p-2 w-[100%] md:w-[300px] text-white  font-semibold lg:w-[500px]" />
-
+                <textarea name="message" required id="message" cols="30" rows="10" placeholder="Your message*" class="border-[1px] rounded-sm p-2 w-[100%] h-[100px] lg:w-[500px] md:w-[300px]"></textarea>
+                <button type="submit" class="bg-red-700 rounded-sm p-2 w-[100%] md:w-[300px] text-white  font-semibold lg:w-[500px]">Send message</button>
             </form>
         </div>
     </section>
