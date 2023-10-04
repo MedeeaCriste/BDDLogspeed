@@ -584,20 +584,20 @@ video {
   order: 1;
 }
 
-.order-4 {
-  order: 4;
-}
-
 .order-2 {
   order: 2;
 }
 
-.order-5 {
-  order: 5;
-}
-
 .order-3 {
   order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.order-5 {
+  order: 5;
 }
 
 .order-6 {
@@ -850,6 +850,10 @@ video {
   padding: 1rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1022,6 +1026,10 @@ video {
 
   .md\:pr-4 {
     padding-right: 1rem;
+  }
+
+  .md\:pb-16 {
+    padding-bottom: 4rem;
   }
 
   .md\:text-left {
