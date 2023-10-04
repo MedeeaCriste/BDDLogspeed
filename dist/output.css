@@ -1024,12 +1024,12 @@ video {
     padding: 2rem;
   }
 
-  .md\:pr-4 {
-    padding-right: 1rem;
-  }
-
   .md\:pb-16 {
     padding-bottom: 4rem;
+  }
+
+  .md\:pr-4 {
+    padding-right: 1rem;
   }
 
   .md\:text-left {
